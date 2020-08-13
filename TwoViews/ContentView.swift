@@ -9,8 +9,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var lstitems: lstItems
     var body: some View {
-        Text("Hello, World!")
+        //  リスト表示するぜっ
+        List{
+            //  二次元配列のデータ全部ここに表示するまでグルグル回るよ
+            ForEach(lstitems.item){ item in
+                HStack{
+                    Text(item.name)
+                    Spacer()
+                }
+            }
+        }
     }
 }
 

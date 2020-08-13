@@ -15,6 +15,8 @@
 		8B8EE1DC24E55E210054E1A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B8EE1DA24E55E210054E1A0 /* LaunchScreen.storyboard */; };
 		8B8EE1E724E55E220054E1A0 /* TwoViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8EE1E624E55E220054E1A0 /* TwoViewsTests.swift */; };
 		8B8EE1F224E55E230054E1A0 /* TwoViewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8EE1F124E55E230054E1A0 /* TwoViewsUITests.swift */; };
+		8B8EE20224E5622A0054E1A0 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8EE20124E5622A0054E1A0 /* ItemListView.swift */; };
+		8B8EE20424E569100054E1A0 /* frmMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8EE20324E5690F0054E1A0 /* frmMain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8B8EE1ED24E55E220054E1A0 /* TwoViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoViewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B8EE1F124E55E230054E1A0 /* TwoViewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewsUITests.swift; sourceTree = "<group>"; };
 		8B8EE1F324E55E230054E1A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B8EE20124E5622A0054E1A0 /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
+		8B8EE20324E5690F0054E1A0 /* frmMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frmMain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				8B8EE1DA24E55E210054E1A0 /* LaunchScreen.storyboard */,
 				8B8EE1DD24E55E210054E1A0 /* Info.plist */,
 				8B8EE1D724E55E210054E1A0 /* Preview Content */,
+				8B8EE20124E5622A0054E1A0 /* ItemListView.swift */,
+				8B8EE20324E5690F0054E1A0 /* frmMain.swift */,
 			);
 			path = TwoViews;
 			sourceTree = "<group>";
@@ -268,8 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B8EE1D024E55E180054E1A0 /* AppDelegate.swift in Sources */,
+				8B8EE20424E569100054E1A0 /* frmMain.swift in Sources */,
 				8B8EE1D224E55E180054E1A0 /* SceneDelegate.swift in Sources */,
 				8B8EE1D424E55E180054E1A0 /* ContentView.swift in Sources */,
+				8B8EE20224E5622A0054E1A0 /* ItemListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

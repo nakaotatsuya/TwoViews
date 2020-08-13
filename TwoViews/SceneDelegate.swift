@@ -12,6 +12,9 @@ import SwiftUI
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+    
+    //  いろんな画面でみれるようにここで宣言
+    var lstitems = lstItems()
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
@@ -20,7 +23,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
         // Create the SwiftUI view that provides the window contents.
-        let contentView = ContentView()
+        
+        //let contentView = ContentView()
+        //  frmMainをスタートアップに変更
+        //  で、グローバル変数を画面に渡します
+        let contentView = frmMain().environmentObject(lstitems)  
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
